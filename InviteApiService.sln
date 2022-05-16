@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2ADE321D-D9EB-446F-A3F2-BCF7A1B6319D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B13C0C4A-6BA7-4E7A-BC1A-D53F3DAC39F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InviteApi", "InviteApi\InviteApi.csproj", "{B50B9D66-8A90-408B-BAD4-E4798990B528}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InviteApiTests", "InviteApiTests\InviteApiTests.csproj", "{2C39551B-EBA6-4531-B59A-4986DEA1133B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InviteApiContract", "InviteApiContract\InviteApiContract.csproj", "{CD219A33-54BE-4874-A4EA-9B585CA687A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B50B9D66-8A90-408B-BAD4-E4798990B528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50B9D66-8A90-408B-BAD4-E4798990B528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50B9D66-8A90-408B-BAD4-E4798990B528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50B9D66-8A90-408B-BAD4-E4798990B528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C39551B-EBA6-4531-B59A-4986DEA1133B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C39551B-EBA6-4531-B59A-4986DEA1133B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C39551B-EBA6-4531-B59A-4986DEA1133B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C39551B-EBA6-4531-B59A-4986DEA1133B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD219A33-54BE-4874-A4EA-9B585CA687A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD219A33-54BE-4874-A4EA-9B585CA687A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD219A33-54BE-4874-A4EA-9B585CA687A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD219A33-54BE-4874-A4EA-9B585CA687A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B50B9D66-8A90-408B-BAD4-E4798990B528} = {2ADE321D-D9EB-446F-A3F2-BCF7A1B6319D}
+		{2C39551B-EBA6-4531-B59A-4986DEA1133B} = {B13C0C4A-6BA7-4E7A-BC1A-D53F3DAC39F7}
+		{CD219A33-54BE-4874-A4EA-9B585CA687A6} = {2ADE321D-D9EB-446F-A3F2-BCF7A1B6319D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E4C7A73-F84F-405D-8F2E-A89D997F772D}
+	EndGlobalSection
+EndGlobal
